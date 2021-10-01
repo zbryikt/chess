@@ -1,0 +1,28 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx server -r web -o true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@loadingio/bootstrap.ext": "^0.0.1",
+    "@loadingio/ldquery": "^2.1.0",
+    "@zbryikt/template": "^2.3.16",
+    "bootstrap": "^5.1.1",
+    "fedep": "^0.0.12",
+    "ldview": "^0.2.2"
+  },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "bootstrap",
+      "@loadingio/bootstrap.ext",
+      "@loadingio/ldquery",
+      "ldview"
+    ]
+  }
+}
