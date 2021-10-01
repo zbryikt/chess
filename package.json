@@ -11,6 +11,7 @@
   "dependencies": {
     "@loadingio/bootstrap.ext": "^0.0.1",
     "@loadingio/ldquery": "^2.1.0",
+    "@zbryikt/deploy": "github:zbryikt/deploy",
     "@zbryikt/template": "^2.3.16",
     "bootstrap": "^4.5.3",
     "fedep": "^0.0.12",
