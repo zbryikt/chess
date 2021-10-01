@@ -2,8 +2,8 @@ doctype html
 html
   include @/@loadingio/bootstrap.ext/dist/index.pug
   head
-    +css("/assets/lib/bootstrap/main/css/bootstrap.min.css")
-    +css("/assets/lib/@loadingio/bootstrap.ext/main/index.min.css")
+    +css("assets/lib/bootstrap/main/css/bootstrap.min.css")
+    +css("assets/lib/@loadingio/bootstrap.ext/main/index.min.css")
     style(type="text/css"): :stylus
       .grid
         display: grid
@@ -38,6 +38,6 @@ html
     .w-640.rwd.mx-auto.my-4: .aspect-ratio.ratio-1by1
       .grid.w-100.h-100
         .cell(ld-each="cell")
-    +script("/assets/lib/@loadingio/ldquery/main/ldq.min.js")
-    +script("/assets/lib/ldview/main/index.min.js")
+    +script("assets/lib/@loadingio/ldquery/main/ldq.min.js")
+    +script("assets/lib/ldview/main/index.min.js")
     script: include:lsc index.ls
