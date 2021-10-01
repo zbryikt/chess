@@ -12,7 +12,7 @@
     "@loadingio/bootstrap.ext": "^0.0.1",
     "@loadingio/ldquery": "^2.1.0",
     "@zbryikt/template": "^2.3.16",
-    "bootstrap": "^5.1.1",
+    "bootstrap": "^4.5.3",
     "fedep": "^0.0.12",
     "ldview": "^0.2.2"
   },
